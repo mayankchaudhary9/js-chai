@@ -13,7 +13,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 const bigNumber = 77636468576857572445n  
 
@@ -42,10 +42,10 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("Hello world");
+    // console.log("Hello world");
 }
 
-console.log(typeof games);
+// console.log(typeof games);
 
 
 // Return type of variables in JavaScript
@@ -53,3 +53,31 @@ console.log(typeof games);
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+
+
+// *****************************
+
+
+// Stack(primitive), Heap(Non-primitive) 
+
+let myName = "MayankChaudhary"
+
+let anotherName = myName
+
+anotherName = "chaudhary"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email: "mayank@google.com",
+    class: 9,
+}
+let userTwo = userOne
+ 
+userTwo.email = "katshhsbksm.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
